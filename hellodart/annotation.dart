@@ -3,8 +3,8 @@ trueIfNull(a, b) {
 }
 
 main() {
-  final bool nums = trueIfNull(1, 2);
-  final bool strings = trueIfNull("Hello ", null);
+  final nums = trueIfNull(1, 2);
+  final strings = trueIfNull("Hello ", null);
   print("$nums");
   print("$strings");
 }
